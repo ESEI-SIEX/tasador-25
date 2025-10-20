@@ -1,0 +1,11 @@
+name: cbrkit-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.12
+  - pip
+  - pip:
+      - "cbrkit[nlp,transformers]==0.28.5"
+      - argparse
+
